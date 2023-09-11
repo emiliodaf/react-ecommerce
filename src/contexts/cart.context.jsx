@@ -44,6 +44,7 @@ export const CartProvider = ({children}) => {
 
 
     const addItemToCart = (productToAdd) => {
+
         setCartItems(addCartItem(cartItems, productToAdd));
 
     };
